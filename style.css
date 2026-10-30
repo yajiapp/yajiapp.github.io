@@ -1,0 +1,15 @@
+:root { --paper: #f6efe3; --ink: #2b2420; --muted: #7a6d62; --accent: #a8322d; --line: #e2d6c3; }
+@media (prefers-color-scheme: dark) { :root { --paper: #1f1b18; --ink: #efe6d8; --muted: #a89a8b; --accent: #e06a5f; --line: #3a322c; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.7 "Songti SC", "Noto Serif SC", Georgia, serif; }
+main { max-width: 720px; margin: 0 auto; padding: 56px 24px 80px; }
+header { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+h1 { font-size: 44px; margin: 0; letter-spacing: 2px; }
+h1 small { font-size: 22px; color: var(--muted); letter-spacing: 0; }
+h2 { font-size: 22px; margin-top: 40px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+a { color: var(--accent); }
+nav { margin: 18px 0 36px; display: flex; gap: 20px; font-family: -apple-system, sans-serif; font-size: 15px; }
+.tag { color: var(--muted); font-size: 19px; margin: 6px 0 0; }
+ul { padding-left: 22px; }
+footer { margin-top: 64px; color: var(--muted); font-size: 14px; font-family: -apple-system, sans-serif; }
+.lang { color: var(--muted); font-size: 15px; font-family: -apple-system, sans-serif; }
